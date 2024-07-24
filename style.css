@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    font-family: regularUber;
+}
+
+
+@font-face {
+    font-family: regularUber;
+    src: url(fonts/UberMove-Regular.ttf);
+}
+
+@font-face {
+    font-family: boldUber;
+    src: url(fonts/UberMove-Bold.ttf);
+}
+
+@font-face {
+    font-family: lightUber;
+    src: url(fonts/UberMove-Light.ttf);
+}
+
+@font-face {
+    font-family: mediumUber;
+    src: url(fonts/UberMove-Medium.ttf);
+}
+
+li{
+    list-style-type: none;
+}
+
+nav{
+    display: flex;
+    background-color: black;
+    padding: 10px;
+    flex-flow: row;
+    align-items: center;
+    gap:50px;
+}
+
+.navi{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.navi ul{
+    display: inline-flex;
+    gap: 5px;
+    padding: 10px 8px;
+}
+
+.uber{
+    font-size: 25px;
+    font-weight: 300;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-left: 100px;
+}
+
+.navi a{
+    text-decoration: none;
+    color: white;
+}
+
+.navleft{
+    font-size: 16px;
+    margin-right: 650px;
+}
+
+.navi li:hover{
+    background-color: rgba(165, 165, 162, 0.366);
+    border-radius: 25px;
+}
+
+.navi li{
+    padding: 8px 12px;
+}
+
+.navi button{
+    border: none;
+    background :none;
+    color: white;
+    font-family: regularUber;
+    font-size: 16px;
+}
+
+.navleft svg{
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 3px;
+}
+
+.navright svg{
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 2px;
+    rotate: 30deg;
+    margin-right: 5px;
+}
+
+
